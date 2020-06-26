@@ -51,7 +51,7 @@ void array2d() {
 			printf("mtxB[%d][%d] = %d\n",i,j, mtxB[i][j]);	
 		}
 	}
-	printf("mtxB");
+	//aaaa
 }
 void sortarray2dasc() {
 //	int length = sizeof(mtxB)/sizeof(0);
