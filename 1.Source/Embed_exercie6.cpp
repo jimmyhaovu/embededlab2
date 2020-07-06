@@ -36,7 +36,11 @@ int main() {
 
 	// Chuoi
 	char str[] = "abc123";
-	char str1[] = "fsdfsdfsdf";
-	printf("%s", strcat(str, str1));	
+	char str1[]="";
+	strcpy(str1, str);
+	printf("%d\n", strlen(str));
+	int length;
+	for(length = 0; str[length] != '\0'; ++length);
+	printf("%d", length);
 	return 0;
 }
